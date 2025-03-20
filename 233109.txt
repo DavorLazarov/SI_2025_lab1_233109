@@ -1,0 +1,319 @@
+Davor@DESKTOP-CNSI8BF MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ CLionProjects/
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - UKIM, FINKI'/
+ PrintHood@
+ README.md
+ Recent@
+ SI2025Lab1Main.java
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+'VirtualBox VMs'/
+ WebstormProjects/
+ lab1Softversko/
+ lab1_OS/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ top
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~ (master)
+$ mkdir SI_2025_lab1_233109
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~ (master)
+$ cd SI_2025_lab1_233109
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git init
+Initialized empty Git repository in C:/Users/Davor/SI_2025_lab1_233109/.git/
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git remote add origin https://github.com/DavorLazarov/SI_2025_lab1_233109
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ nano README.md
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ ls
+README.md
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ nano README.md
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ ls
+README.md
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) c174771] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 241 bytes | 241.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DavorLazarov/SI_2025_lab1_233109
+ * [new branch]      master -> master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git commit -m "Add starter code"
+[master 32c4115] Add starter code
+ 1 file changed, 126 insertions(+)
+ create mode 100644 SI2025Lab1Main.java
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.21 KiB | 1.21 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DavorLazarov/SI_2025_lab1_233109
+   c174771..32c4115  master -> master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git branch
+* master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git fetch origin
+From https://github.com/DavorLazarov/SI_2025_lab1_233109
+ * [new branch]      1-remove-a-task-by-name -> origin/1-remove-a-task-by-name
+ * [new branch]      4-sort-tasks-by-priority -> origin/4-sort-tasks-by-priority
+ * [new branch]      6-find-the-highest-priority-unfinished-task -> origin/6-fin
+d-the-highest-priority-unfinished-task
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git branch -r
+  origin/1-remove-a-task-by-name
+  origin/4-sort-tasks-by-priority
+  origin/6-find-the-highest-priority-unfinished-task
+  origin/HEAD -> origin/master
+  origin/master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git branch
+* master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git checkout 1-remove-a-task-by-name
+branch '1-remove-a-task-by-name' set up to track 'origin/1-remove-a-task-by-name
+'.
+Switched to a new branch '1-remove-a-task-by-name'
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git branch
+* 1-remove-a-task-by-name
+  master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git commit -m "Prva funkcija"
+[1-remove-a-task-by-name 6b86f98] Prva funkcija
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+g
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 373 bytes | 373.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DavorLazarov/SI_2025_lab1_233109
+   32c4115..6b86f98  1-remove-a-task-by-name -> 1-remove-a-task-by-name
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git push origin -u origin 1-remove-a-task-by-name
+fatal: refs/remotes/origin/HEAD cannot be resolved to branch
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git branch
+* 1-remove-a-task-by-name
+  master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git branch -r
+  origin/1-remove-a-task-by-name
+  origin/4-sort-tasks-by-priority
+  origin/6-find-the-highest-priority-unfinished-task
+  origin/HEAD -> origin/master
+  origin/master
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (1-remove-a-task-by-name)
+$ git checkout 4-sort-tasks-by-priority
+branch '4-sort-tasks-by-priority' set up to track 'origin/4-sort-tasks-by-priori
+ty'.
+Switched to a new branch '4-sort-tasks-by-priority'
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (4-sort-tasks-by-priority)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (4-sort-tasks-by-priority)
+$ git commit -m "Vtora funkcija"
+[4-sort-tasks-by-priority e556333] Vtora funkcija
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (4-sort-tasks-by-priority)
+$ git push -u origin 4-sort-tasks-by-priority
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 374 bytes | 374.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DavorLazarov/SI_2025_lab1_233109
+   32c4115..e556333  4-sort-tasks-by-priority -> 4-sort-tasks-by-priority
+branch '4-sort-tasks-by-priority' set up to track 'origin/4-sort-tasks-by-priori
+ty'.
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (4-sort-tasks-by-priority)
+$ git checkout 6-find-the-highest-priority-unfinished-task
+error: Your local changes to the following files would be overwritten by checkou
+t:
+        SI2025Lab1Main.java
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (4-sort-tasks-by-priority)
+$ git stash
+Saved working directory and index state WIP on 4-sort-tasks-by-priority: e556333
+ Vtora funkcija
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (4-sort-tasks-by-priority)
+$ git checkout 6-find-the-highest-priority-unfinished-task
+branch '6-find-the-highest-priority-unfinished-task' set up to track 'origin/6-f
+ind-the-highest-priority-unfinished-task'.
+Switched to a new branch '6-find-the-highest-priority-unfinished-task'
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git commit -m "Treta funkcija"
+On branch 6-find-the-highest-priority-unfinished-task
+Your branch is up to date with 'origin/6-find-the-highest-priority-unfinished-ta
+sk'.
+
+nothing to commit, working tree clean
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git push -u origin 6-find-the-highest-priority-unfinished-task
+branch '6-find-the-highest-priority-unfinished-task' set up to track 'origin/6-f
+ind-the-highest-priority-unfinished-task'.
+Everything up-to-date
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git reset
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git commit -m "Treta funkcija"
+On branch 6-find-the-highest-priority-unfinished-task
+Your branch is up to date with 'origin/6-find-the-highest-priority-unfinished-ta
+sk'.
+
+nothing to commit, working tree clean
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git push
+Everything up-to-date
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git add .
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git commit -m "Treta funkcija"
+[6-find-the-highest-priority-unfinished-task 87a8f3a] Treta funkcija
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git push -u origin 6-find-the-highest-priority-unfinished-task
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 574 bytes | 574.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DavorLazarov/SI_2025_lab1_233109
+   32c4115..87a8f3a  6-find-the-highest-priority-unfinished-task -> 6-find-the-h
+ighest-priority-unfinished-task
+branch '6-find-the-highest-priority-unfinished-task' set up to track 'origin/6-f
+ind-the-highest-priority-unfinished-task'.
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (6-find-the-highest-priority-unfinished-task)
+$ git checkout master
+Switched to branch 'master'
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ touch logs.txt
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ git log --oneline --graph --all
+* 87a8f3a (origin/6-find-the-highest-priority-unfinished-task, 6-find-the-highes
+t-priority-unfinished-task) Treta funkcija
+| *   93bfa2a (refs/stash) WIP on 4-sort-tasks-by-priority: e556333 Vtora funkci
+ja
+| |\
+| | * df812e8 index on 4-sort-tasks-by-priority: e556333 Vtora funkcija
+| |/
+| * e556333 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Vtora fu
+nkcija
+|/
+| * 6b86f98 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Prva funkc
+ija
+|/
+* 32c4115 (HEAD -> master, origin/master, origin/HEAD) Add starter code
+* c174771 Initial commit
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ nano logs.txt
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ touch 233109.txt
+
+Davor@DESKTOP-CNSI8BF MINGW64 ~/SI_2025_lab1_233109 (master)
+$ nano 233109.txt

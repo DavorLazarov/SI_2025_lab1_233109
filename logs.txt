@@ -1,0 +1,15 @@
+* 87a8f3a (origin/6-find-the-highest-priority-unfinished-task, 6-find-the-highes
+t-priority-unfinished-task) Treta funkcija
+| *   93bfa2a (refs/stash) WIP on 4-sort-tasks-by-priority: e556333 Vtora funkci
+ja
+| |\
+| | * df812e8 index on 4-sort-tasks-by-priority: e556333 Vtora funkcija
+| |/
+| * e556333 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Vtora fu
+nkcija
+|/
+| * 6b86f98 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Prva funkc
+ija
+|/
+* 32c4115 (HEAD -> master, origin/master, origin/HEAD) Add starter code
+* c174771 Initial commit
