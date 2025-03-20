@@ -64,6 +64,7 @@ class TaskManager {
 
     // 1. Remove a task by name
     public void removeTask(String name) {
+        // TODO: Implement removal logic
         tasks.removeIf(task->task.getName().equals(name));
     }
 
@@ -80,9 +81,8 @@ class TaskManager {
 
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
-
         tasks.sort(Comparator.comparing(Task::getPriority));
-}
+    }
 
     // 5. Filter tasks by category
     public List<Task> filterByCategory(String category) {
